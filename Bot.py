@@ -11,7 +11,7 @@ def start(message, res=False):
     chat_id = message.chat.id
 
     bot.send_message(chat_id,
-                     text="Привет, {0.first_name}! Это пример отработки стандартного бота".format(
+                     text="Привет, {0.first_name}! Я тестовый бот для курса программирования на языке ПаЙтон".format(
                          message.from_user))
 
 
